@@ -6,9 +6,11 @@
 </head>
 <body>
 <h1> Registration Info </h1>
-<legend><b>Basic Information::</b></legend>
-<br><br>
 <hr>
+<legend><b>Basic Information::</b></legend>
+<hr>
+<br><br>
+
 Firstname: <?php echo $_POST['firstname'];?>
 <br><br>
 Lastname: <?php echo $_POST['lastname'];?>
@@ -21,6 +23,7 @@ Date of Birth:<?php echo $_POST['Dob'];?>
 Religion:<?php echo $_POST['religion'];?>
 
 <br><br>
+<hr>
 <legend><b>Contact information:</b></legend>
 <hr>
 <br><br>
@@ -34,6 +37,7 @@ Email:<?php echo $_POST['email'];?>
 <br><br>
 Link:<?php echo $_POST['link'];?>
 <br><br>
+<hr>
 <b><legend><b>Account Information:</b></legend>
 <hr>
 <br><br>
